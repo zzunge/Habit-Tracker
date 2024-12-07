@@ -1,0 +1,56 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# Distribution files
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+
+# Logs
+*.log
+*.sqlite3
+*.sqlite3-journal
+
+# Unit test / coverage
+.tox/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.hypothesis/
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Django / Flask
+local_settings.py
+instance/
+.webassets-cache
+
+# IDE settings
+.vscode/
+.idea/
+
+# Type checker and linter
+.mypy_cache/
+.pyre/
+.pytype/
+cython_debug/
+
+# Other project tools
+docs/_build/
+.pybuilder/
+target/
+.site/
