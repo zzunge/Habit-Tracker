@@ -22,7 +22,7 @@ A simple app to help you track and analyze your habits!
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zzunge/HabitTracker.git
+   git clone https://github.com/zzunge/Habit-Tracker.git
    cd Habit-Tracker
    python3 -m venv venv
    source venv/bin/activate
