@@ -1,4 +1,4 @@
-# HabitTracker
+# Habit-Tracker
 
 A simple app to help you track and analyze your habits!
 
