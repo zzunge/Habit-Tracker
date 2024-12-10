@@ -1,4 +1,4 @@
-import click
+
 from models.habit import Habit
 from models.user import User
 from models.analytics import Analytics
