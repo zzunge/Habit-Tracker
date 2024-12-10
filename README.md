@@ -29,5 +29,11 @@ A simple app to help you track and analyze your habits!
    pip install -r requirements.txt
    python main.py
 
+## Testing
+This project includes unit tests to verify the functionality of core features. 
+To run the tests, use the following command:
+   ```bash
+   python -m unittest discover -s tests
+
 
 
