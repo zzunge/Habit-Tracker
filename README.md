@@ -29,11 +29,34 @@ A simple app to help you track and analyze your habits!
    pip install -r requirements.txt
    python main.py
 
+## Usage 
+
+
 ## Testing
-This project includes unit tests to verify the functionality of core features. 
-To run the tests, use the following command:
-   ```bash
-   python -m unittest discover -s tests
+
+This project includes unit tests to verify the functionality of core features.
+To run all unit tests, use the following command:
+
+```bash
+python -m unittest discover -s tests
+```
+## Data Structure
+Habits and user data are stored in JSON format. Here's an example:
+```json
+{
+  "username": "DefaultUser",
+  "habits": [
+    {
+      "name": "Exercise",
+      "periodicity": "daily",
+      "creation_date": "2024-12-01",
+      "completion_history": ["2024-12-01", "2024-12-02"],
+      "current_streak": 2
+    }
+  ]
+}
+```
+
 
 
 
