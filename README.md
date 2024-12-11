@@ -27,14 +27,16 @@ A simple app to help you track and analyze your habits!
    python3 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
-   python main.py
+ 
 
 ## Usage 
 Once the program is running, you will see the **Habit Tracker Menu** like below:
 
 ### Main Menu
-
----
+In order to start the Application, use this python code in Terminal. 
+```bash
+python main.py
+```
 
 ### Adding a New Habit
 To **add a habit**, choose **option 1** and input the name and periodicity (daily or weekly). 
