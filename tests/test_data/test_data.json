@@ -1,34 +1,49 @@
 {
-    "username": "TestUser",
-    "habits": [
+  "username": "DefaultUser",
+  "habits": [
       {
-        "name": "Exercise",
-        "periodicity": "daily",
-        "creation_date": "2024-12-01",
-        "completion_history": ["2024-12-01", "2024-12-02", "2024-12-03", "2024-12-05"],
-        "current_streak": 3
+          "name": "Exercise",
+          "periodicity": "daily",
+          "creation_date": "2024-11-09",
+          "completion_history": [
+              "2024-11-09", "2024-11-11", "2024-11-12", "2024-11-15",
+              "2024-11-18", "2024-11-22", "2024-11-23", "2024-11-24",
+              "2024-11-25", "2024-11-27", "2024-11-30", "2024-12-01",
+              "2024-12-04", "2024-12-05", "2024-12-06", "2024-12-07",
+              "2024-12-10", "2024-12-14", "2024-12-15", "2024-12-17"
+          ],
+          "current_streak": 0
       },
       {
-        "name": "Read",
-        "periodicity": "weekly",
-        "creation_date": "2024-12-01",
-        "completion_history": ["2024-12-01", "2024-12-08", "2024-12-15"],
-        "current_streak": 3
+          "name": "Meditate",
+          "periodicity": "daily",
+          "creation_date": "2024-12-13",
+          "completion_history": [
+              "2024-12-13", "2024-12-17", "2024-12-18"
+          ],
+          "current_streak": 2
       },
       {
-        "name": "Meditate",
-        "periodicity": "daily",
-        "creation_date": "2024-12-05",
-        "completion_history": ["2024-12-05", "2024-12-06", "2024-12-08"],
-        "current_streak": 2
+          "name": "Clean Desk",
+          "periodicity": "daily",
+          "creation_date": "2024-11-27",
+          "completion_history": [
+              "2024-11-27", "2024-11-28", "2024-12-01", "2024-12-02",
+              "2024-12-04", "2024-12-05", "2024-12-06", "2024-12-09",
+              "2024-12-10", "2024-12-11", "2024-12-12", "2024-12-15",
+              "2024-12-16", "2024-12-17", "2024-12-18"
+          ],
+          "current_streak": 4
       },
       {
-        "name": "Drink Water",
-        "periodicity": "daily",
-        "creation_date": "2024-12-10",
-        "completion_history": ["2024-12-10", "2024-12-11", "2024-12-12", "2024-12-13", "2024-12-14"],
-        "current_streak": 5
+          "name": "Call Family",
+          "periodicity": "weekly",
+          "creation_date": "2024-12-07",
+          "completion_history": [
+              "2024-12-07", "2024-12-14", "2024-12-21", "2024-12-28"
+              
+          ],
+          "current_streak": 2
       }
-    ]
-  }
-  
+  ]
+}
